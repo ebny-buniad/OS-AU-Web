@@ -10,14 +10,18 @@ body{
 a{
     text-decoration: none;
     font-size: 14px;
-    color: #2ce9f7;
+    color: #43d1e4;
     transition: .3s;
 }
 a:hover{
-    color: #7fc0c4;
+    color: #33b9c0;
 }
 ul{
     list-style-type: disc;
+}
+
+#web_logo{
+    width: 120px;
 }
 
 #home_page_header{
@@ -357,3 +361,50 @@ ul{
 
 
 /* ====================================== Pages End ================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* - - - - - - - - Footer Start - - - - - - - - */
+
+footer{
+    background-color: #171d1f;
+    color: #ffffffff;
+}
+
+#footer-logo{
+    width: 120px;
+}
+.footer-text{
+    font-size: 13px;
+}
+
+.footer-social{
+    margin-right: 10px;
+    font-size: 15px;
+    color: #ffffffff; 
+    border: 1px solid whitesmoke;
+    padding: 4px;
+    border-radius: 50px;
+}
+
+.footer-social:hover{
+    border: 1px solid rgb(67, 233, 255);
+}
+
+
+.policy{
+    margin-left: 20px;
+    border-bottom: 1px solid;
+}
+/* - - - - - - - - Footer End - - - - - - - - */
