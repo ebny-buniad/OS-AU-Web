@@ -1,5 +1,4 @@
-
-body{
+body {
     font-family: 'Inter', sans-serif !important;
     background-color: none !important;
 }
@@ -7,24 +6,26 @@ body{
 
 /* ================= Common Css =============== */
 
-a{
+a {
     text-decoration: none;
     font-size: 14px;
     color: #43d1e4;
     transition: .3s;
 }
-a:hover{
+
+a:hover {
     color: #33b9c0;
 }
-ul{
+
+ul {
     list-style-type: disc;
 }
 
-#web_logo{
+#web_logo {
     width: 120px;
 }
 
-#home_page_header{
+#home_page_header {
     background: rgba(0, 0, 0, 0.550) url(../images/home_page_image/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,37 +38,41 @@ ul{
 .nav-option {
     margin-right: 15px;
 }
-.active{
+
+.active {
     transition: 0.3s;
 }
+
 .active:hover {
     color: #33b9c0 !important;
 }
-.nav-link{
+
+.nav-link {
     font-weight: 700;
     font-size: 16px;
     color: rgb(255, 255, 255) !important;
 }
 
-.black-nav{
+.black-nav {
     font-weight: 700;
     font-size: 16px;
     color: rgb(0, 0, 0) !important;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     color: whitesmoke !important;
     background-color: white;
 }
 
 @media (max-width: 576px) {
-    #home_page_header{
+    #home_page_header {
         height: 100dvh;
     }
-    
-    #header_hero_section{
+
+    #header_hero_section {
         margin-top: 10%;
     }
+
     .dropdown_icon1 {
         display: none !important;
     }
@@ -98,17 +103,19 @@ ul{
         top: 0px;
 
     }
-    
+
 }
 
 
 @media (max-width: 768px) {
-    .navbar-top-position{
+    .navbar-top-position {
         padding-top: 50px;
     }
-    #header_hero_section{
+
+    #header_hero_section {
         margin-top: 10%;
     }
+
     .dropdown_icon1 {
         display: none !important;
     }
@@ -116,27 +123,31 @@ ul{
     .dropdown_icon2 {
         display: inline-flex !important;
     }
-    .home .home-text p span{
+
+    .home .home-text p span {
         font-size: 32px;
-        color:#ffffffff;
+        color: #ffffffff;
         font-weight: 700;
         display: inline-block;
         display: none;
-     }
-     .bottom_up_fixed_title{
-         font-size: 32px;
-         font-weight: 700;
-         color: #2ce9f7;
-     }
+    }
+
+    .bottom_up_fixed_title {
+        font-size: 32px;
+        font-weight: 700;
+        color: #2ce9f7;
+    }
 }
 
 @media (min-width: 1024px) {
-    .navbar-top-position{
+    .navbar-top-position {
         padding-top: 100px;
     }
-    #header_hero_section{
+
+    #header_hero_section {
         margin-top: 10%;
     }
+
     .dropdown_icon1 {
         display: inline !important;
     }
@@ -148,9 +159,11 @@ ul{
     #dropdown_show {
         display: none;
     }
-    .navbar-top-position{
+
+    .navbar-top-position {
         padding-top: 50px;
     }
+
     .dropdown_icon1 {
         display: none !important;
     }
@@ -158,49 +171,56 @@ ul{
     .dropdown_icon2 {
         display: inline-flex !important;
     }
-    .home .home-text p span{
+
+    .home .home-text p span {
         font-size: 32px;
-        color:#ffffffff;
+        color: #ffffffff;
         font-weight: 700;
         display: inline-block;
         display: none;
-     }
-     .bottom_up_fixed_title{
-         font-size: 32px;
-         font-weight: 700;
-         color: #2ce9f7;
-     }
+    }
+
+    .bottom_up_fixed_title {
+        font-size: 32px;
+        font-weight: 700;
+        color: #2ce9f7;
+    }
 }
 
-@media (max-width: 1024px ) {
-    .navbar-toggler{
+@media (max-width: 1024px) {
+    .navbar-toggler {
         margin-top: 20px;
     }
+
     .dropdown_icon1 {
         display: none !important;
     }
-    .home .home-text p span{
+
+    .home .home-text p span {
         font-size: 32px;
-        color:#ffffffff;
+        color: #ffffffff;
         font-weight: 700;
         display: inline-block;
         display: none;
-     }
-     .bottom_up_fixed_title{
-         font-size: 32px;
-         font-weight: 700;
-         color: #2ce9f7;
-     }
+    }
+
+    .bottom_up_fixed_title {
+        font-size: 32px;
+        font-weight: 700;
+        color: #2ce9f7;
+    }
 }
 
 @media (min-width: 1440px) {
-    .navbar-top-position{
+    .navbar-top-position {
         padding-top: 100px;
     }
-    #header_hero_section{
+
+    #header_hero_section {
         margin-top: 15%;
         padding-bottom: 2%;
     }
+
     .dropdown_icon1 {
         display: inline !important;
     }
@@ -212,19 +232,20 @@ ul{
     #dropdown_show {
         display: none;
     }
-    
-    .home .home-text p span{
+
+    .home .home-text p span {
         font-size: 60px;
-        color:#ffffffff;
+        color: #ffffffff;
         font-weight: 700;
         display: inline-block;
         display: none;
-     }
-     .bottom_up_fixed_title{
-         font-size: 60px;
-         font-weight: 700;
-         color: #2ce9f7;
-     }
+    }
+
+    .bottom_up_fixed_title {
+        font-size: 60px;
+        font-weight: 700;
+        color: #2ce9f7;
+    }
 }
 
 
@@ -263,32 +284,44 @@ ul{
 }
 
 /* Large nav */
-.navbar .megamenu{ padding: 1rem; }
+.navbar .megamenu {
+    padding: 1rem;
+}
 
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
 
-  .navbar .has-megamenu{position:static!important;}
-  .navbar .megamenu{left:0; right:0; margin-top:0;}
-}	
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        margin-top: 0;
+    }
+}
+
 /* ============ desktop view .end// ============ */
 
 /* ============ mobile view ============ */
-@media(max-width: 991px){
-  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
-    overflow-y: auto;
-      max-height: 90vh;
-      margin-top:10px;
-  }
+@media(max-width: 991px) {
+
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
 }
 
-.dropdown_service_title{
+.dropdown_service_title {
     font-size: 24px;
     font-weight: 400;
     padding: 50px;
 }
 
-.Overview_button{
+.Overview_button {
     margin-left: 50px;
     border: 2px solid black;
     padding: 20px 30px 20px 30px;
@@ -296,52 +329,57 @@ ul{
     transition: .3s;
 }
 
-.Overview_button:hover{
+.Overview_button:hover {
     background-color: #2ce9f7;
     color: #ffffffff;
     border: 2px solid #ffffffff;
 }
 
-.services_name_title{
+.services_name_title {
     font-size: 20px;
     font-weight: 400;
 }
 
 /* Navbar Attached Hero & Hero Info */
 
-.home .home-text p{
-   margin:0;
-   overflow: hidden;
+.home .home-text p {
+    margin: 0;
+    overflow: hidden;
 }
 
 
-.home .home-text p span.text-in{
-   display: block;
-   animation: textIn .5s ease;
-}
-.home .home-text p span.text-out{
-   animation: textOut .5s ease;
-}
-@keyframes textIn{
-   0%{
-       transform: translateY(100%);
-   }
-   100%{
-       transform: translateY(0%);
-   }
-}
-@keyframes textOut{
-   0%{
-       transform: translateY(0%);
-   }
-   100%{
-       transform: translateY(-100%);
-
-   }
+.home .home-text p span.text-in {
+    display: block;
+    animation: textIn .5s ease;
 }
 
+.home .home-text p span.text-out {
+    animation: textOut .5s ease;
+}
 
-.hero_subtitle{
+@keyframes textIn {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes textOut {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+
+    }
+}
+
+
+.hero_subtitle {
     font-size: 19px;
     margin-top: 50px;
     color: #ffffffff;
@@ -359,7 +397,7 @@ ul{
 /* +++++++ Home Page Start +++++++ */
 
 /* Key Service */
-.services-card-icon{
+.services-card-icon {
     width: 55px;
 }
 
@@ -368,14 +406,134 @@ ul{
 
 /* About Page Start */
 
-#about-page-header{
+#about-page-header {
     background: rgba(51, 51, 51, 0.1) url(../images/bg.svg);
     background-color: #ffffffff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     max-width: 100%;
+    height: 100dvh;
 }
+
+.about-master-title {
+    font-size: 50px;
+    font-weight: 400 !important;
+    color: rgb(61, 61, 61);
+}
+
+.about-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-section-title {
+    font-size: 50px;
+    font-weight: 400 !important;
+    color: rgb(61, 61, 61);
+}
+
+.accordion .accordion-item {
+    border-bottom: px solid #e5e5e5;
+}
+
+.accordion .accordion-item button[aria-expanded='true'] {
+    border-bottom: 1px solid #03b5d2;
+}
+
+.accordion button {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 100%;
+    padding: 1em 0;
+    color: #838383;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+    cursor: pointer;
+    color: #03b5d2;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+    cursor: pointer;
+    color: #03b5d2;
+    border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+    padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 0;
+    width: 22px;
+    height: 22px;
+    border: 1px solid;
+    border-radius: 22px;
+}
+
+.accordion button .icon::before {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 9px;
+    left: 5px;
+    width: 10px;
+    height: 2px;
+    background: currentColor;
+}
+
+.accordion button .icon::after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 9px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+}
+
+.accordion button[aria-expanded='true'] {
+    color: #03b5d2;
+}
+
+.accordion button[aria-expanded='true'] .icon::after {
+    width: 0;
+}
+
+.accordion button[aria-expanded='true']+.accordion-content {
+    opacity: 1;
+    max-height: 9em;
+    transition: all 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 200ms linear, max-height 200ms linear;
+    will-change: opacity, max-height;
+}
+
+.accordion .accordion-content p {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 2em 0;
+}
+
 /* About Page End */
 
 
@@ -396,28 +554,29 @@ ul{
 
 /* - - - - - - - - Footer Start - - - - - - - - */
 
-footer{
+footer {
     background-color: #171d1f;
     color: #ffffffff;
 }
 
-#footer-logo{
+#footer-logo {
     width: 120px;
 }
-.footer-text{
+
+.footer-text {
     font-size: 13px;
 }
 
-.footer-social{
+.footer-social {
     margin-right: 10px;
     font-size: 15px;
-    color: #ffffffff; 
+    color: #ffffffff;
     border: 1px solid whitesmoke;
     padding: 4px;
     border-radius: 50px;
 }
 
-.footer-social:hover{
+.footer-social:hover {
     border: 1px solid rgb(67, 233, 255);
 }
 
