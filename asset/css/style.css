@@ -428,7 +428,7 @@ ul {
 }
 
 .about-section-title {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 400 !important;
     color: rgb(61, 61, 61);
 }
@@ -535,6 +535,63 @@ ul {
 }
 
 /* About Page End */
+
+
+
+
+
+/* Contact Start */
+
+.contact-master-title {
+    font-size: 30px;
+    font-weight: 600 !important;
+    color: rgb(61, 61, 61);
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+label{
+    font-size: 13px;
+}
+
+input, textarea,
+select:focus {
+  color: #939393;
+  background-color: #ffffffff;
+  border-color: inherit;
+  outline: 0;
+  box-shadow: none !important;
+  transition: 0.5s;
+}
+
+.focus:focus {
+  border: 0px !important;
+  color: #939393;
+  background-color: #ffffffff;
+  border-color: inherit;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+input:focus {
+    border: 1px solid #03b5d2 !important;
+  }
+
+.submit-btn{
+    margin-top: 10px;
+    border: 0px;
+    padding: 10px 30px;
+    background-color: #03b5d2;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+.submit-btn:hover{
+    color: white;
+}
+/* Contact End */
 
 
 /* ====================================== Pages End ================================== */
