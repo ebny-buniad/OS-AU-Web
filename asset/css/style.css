@@ -20,9 +20,17 @@ a:hover {
 ul {
     list-style-type: disc;
 }
-
+li{
+    font-size: 14px;
+}
 #web_logo {
     width: 120px;
+}
+
+.marquee-text{
+    color: #2ce9f7;
+    font-weight: 500;
+    padding-top: 10px;
 }
 
 #home_page_header {
@@ -109,7 +117,7 @@ ul {
 
 @media (max-width: 768px) {
     .navbar-top-position {
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     #header_hero_section {
@@ -140,9 +148,6 @@ ul {
 }
 
 @media (min-width: 1024px) {
-    .navbar-top-position {
-        padding-top: 100px;
-    }
 
     #header_hero_section {
         margin-top: 10%;
@@ -161,7 +166,7 @@ ul {
     }
 
     .navbar-top-position {
-        padding-top: 50px;
+        padding-top: 40px;
     }
 
     .dropdown_icon1 {
@@ -213,7 +218,7 @@ ul {
 
 @media (min-width: 1440px) {
     .navbar-top-position {
-        padding-top: 100px;
+        padding-top: 40px;
     }
 
     #header_hero_section {
@@ -316,22 +321,22 @@ ul {
 }
 
 .dropdown_service_title {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: 400;
-    padding: 50px;
+    padding: 20px;
 }
 
-.Overview_button {
-    margin-left: 50px;
+.consultancy-button {
+    margin-left: 20px;
     border: 2px solid black;
     padding: 20px 30px 20px 30px;
     border-radius: 30px;
     transition: .3s;
 }
 
-.Overview_button:hover {
+.consultancy-button:hover {
     background-color: #2ce9f7;
-    color: #ffffffff;
+    color: rgb(0, 0, 0);
     border: 2px solid #ffffffff;
 }
 
