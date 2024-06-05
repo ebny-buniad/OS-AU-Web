@@ -20,14 +20,16 @@ a:hover {
 ul {
     list-style-type: disc;
 }
-li{
+
+li {
     font-size: 14px;
 }
+
 #web_logo {
     width: 120px;
 }
 
-.marquee-text{
+.marquee-text {
     color: #2ce9f7;
     font-weight: 500;
     padding-top: 10px;
@@ -72,14 +74,13 @@ li{
     background-color: white;
 }
 
+
+
 @media (max-width: 576px) {
     #home_page_header {
         height: 100dvh;
     }
 
-    #header_hero_section {
-        margin-top: 10%;
-    }
 
     .dropdown_icon1 {
         display: none !important;
@@ -144,6 +145,11 @@ li{
         font-size: 32px;
         font-weight: 700;
         color: #2ce9f7;
+    }
+
+    .service-menu {
+        height: 300px;
+        overflow: auto;
     }
 }
 
@@ -395,8 +401,6 @@ li{
 /* =====Nav Bar End====== */
 
 
-
-
 /* ====================================== Pages Start ================================== */
 
 /* +++++++ Home Page Start +++++++ */
@@ -409,6 +413,40 @@ li{
 /* Home Page End  */
 
 
+
+
+/* Software Developent Page Start */
+
+#software_dev_page_header {
+    background: rgba(0, 0, 0, 0.550) url(../images/software_dev_page/software-dev-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-blend-mode: darken;
+}
+
+.page-title h4{
+    margin-top: 20%;
+    font-size: 40px;
+    font-weight: 400;
+    color: #20ddae;
+}
+
+.tech-icon{
+    width: 50px;
+    filter: grayscale(95%);
+}
+
+.free-consultancy-button{
+    border: 0px;
+    padding: 20px 40px;
+    background-color: black;
+    border-radius: 50px;
+}
+/* Software Developent Page End */
+
+
 /* About Page Start */
 
 #about-page-header {
@@ -418,7 +456,6 @@ li{
     background-size: cover;
     background-position: center center;
     max-width: 100%;
-    height: 100dvh;
 }
 
 .about-master-title {
@@ -553,38 +590,39 @@ li{
     color: rgb(61, 61, 61);
 }
 
-iframe{
+iframe {
     border-radius: 10px;
 }
 
-label{
+label {
     font-size: 13px;
 }
 
-input, textarea,
+input,
+textarea,
 select:focus {
-  color: #939393;
-  background-color: #ffffffff;
-  border-color: inherit;
-  outline: 0;
-  box-shadow: none !important;
-  transition: 0.5s;
+    color: #939393;
+    background-color: #ffffffff;
+    border-color: inherit;
+    outline: 0;
+    box-shadow: none !important;
+    transition: 0.5s;
 }
 
 .focus:focus {
-  border: 0px !important;
-  color: #939393;
-  background-color: #ffffffff;
-  border-color: inherit;
-  outline: 0;
-  box-shadow: none !important;
+    border: 0px !important;
+    color: #939393;
+    background-color: #ffffffff;
+    border-color: inherit;
+    outline: 0;
+    box-shadow: none !important;
 }
 
 input:focus {
     border: 1px solid #03b5d2 !important;
-  }
+}
 
-.submit-btn{
+.submit-btn {
     margin-top: 10px;
     border: 0px;
     padding: 10px 30px;
@@ -593,9 +631,10 @@ input:focus {
     transition: .3s;
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
     color: white;
 }
+
 /* Contact End */
 
 
