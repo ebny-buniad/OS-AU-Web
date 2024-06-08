@@ -447,6 +447,30 @@ li {
 /* Software Developent Page End */
 
 
+/* Cloud Computing Start */
+#cloud_computing_page_header {
+    background: rgba(0, 0, 0, 0.550) url(../images/cloud_computing/16406248_rm373-16.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-blend-mode: darken;
+}
+/* Cloud Computing End */
+
+/* Cybersecurity Solutions Start */
+
+#cybersecurity_page_header{
+    background: rgba(0, 0, 0, 0.550) url(../images/cybersecurity_page/102029.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-blend-mode: darken;
+}
+/* Cybersecurity Solutions End */
+
+
 /* About Page Start */
 
 #about-page-header {
