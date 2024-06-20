@@ -426,24 +426,25 @@ li {
     background-blend-mode: darken;
 }
 
-.page-title h4{
+.page-title h4 {
     margin-top: 20%;
     font-size: 40px;
     font-weight: 400;
     color: #20ddae;
 }
 
-.tech-icon{
+.tech-icon {
     width: 50px;
     filter: grayscale(95%);
 }
 
-.free-consultancy-button{
+.free-consultancy-button {
     border: 0px;
     padding: 20px 40px;
     background-color: black;
     border-radius: 50px;
 }
+
 /* Software Developent Page End */
 
 
@@ -456,11 +457,12 @@ li {
     max-width: 100%;
     background-blend-mode: darken;
 }
+
 /* Cloud Computing End */
 
 /* Cybersecurity Solutions Start */
 
-#cybersecurity_page_header{
+#cybersecurity_page_header {
     background: rgba(0, 0, 0, 0.550) url(../images/cybersecurity_page/102029.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -468,7 +470,45 @@ li {
     max-width: 100%;
     background-blend-mode: darken;
 }
+
 /* Cybersecurity Solutions End */
+
+/* Artificial Intelligence and Machine Learning Start */
+
+#ai_and_ml_page_header {
+    background: rgba(0, 0, 0, 0.550) url(../images/ai_and_ml_page/ai-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-blend-mode: darken;
+}
+
+/* Artificial Intelligence and Machine Learning End */
+
+/* Internet of Things (IoT) Start */
+
+#iot_page_header {
+    background: rgba(0, 0, 0, 0.550) url(../images/iot_page/iot_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-blend-mode: darken;
+}
+/* Internet of Things (IoT) End */
+
+/* Big Data analysis Start */
+#big_data_page_header {
+    background: rgba(0, 0, 0, 0.550) url(../images/big_data_page/data-analysis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-blend-mode: darken;
+}
+
+/* Big Data analysis End */
 
 
 /* About Page Start */
