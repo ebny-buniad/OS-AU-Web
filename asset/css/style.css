@@ -410,6 +410,28 @@ li {
     width: 55px;
 }
 
+.additional-icon{
+    width: 50px;
+    padding-bottom: 20px;
+}
+
+.addition-icon-info{
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.technology-logo{
+    width: 50px !important;
+    filter: grayscale(100%);
+    opacity: .6;
+    transition: .3s;
+}
+
+.technology-logo:hover{
+    filter: grayscale(0%);
+    opacity: 10;
+}
 /* Home Page End  */
 
 
