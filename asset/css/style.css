@@ -534,6 +534,25 @@ li {
 
 /* Big Data analysis End */
 
+/* Services Page Start */
+.services-description{
+    font-size: 35px;
+    font-weight: 200;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.service-list li{
+    padding-bottom: 20px;
+}
+.service-list i{
+    color: #03b5d2;
+    margin-right: 10px;
+}
+/* Services Page End */
+
 
 /* About Page Start */
 
@@ -665,6 +684,17 @@ li {
 }
 
 /* About Page End */
+
+/* Product Page Start */
+.products i{
+    font-size: 22px;
+    color: #03b5d2;
+}
+.products p{
+    font-size: 14px;
+    padding-top: 35px;
+}
+/* Product Page End */
 
 /* Insights Page Start */
 .display-1 {
